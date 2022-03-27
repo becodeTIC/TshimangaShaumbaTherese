@@ -1,0 +1,138 @@
+/*format all headings*/
+body {
+  text-align: center;
+  background-image: url("./Images/Welcome.jpg");
+  background-repeat: repeat;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+
+}
+
+nav {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 15px;
+  display: inline;
+}
+
+li { display: inline;
+ 
+}
+
+section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1 {
+  color: blueviolet;
+  text-shadow: 2px 2px 10px;
+  font: weight 50px;
+}
+h2 {
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+  border: 30px;
+  box-shadow: 5px 3px;
+  border-radius: 5px;
+}
+h3 {
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+  border: 30px;
+  box-shadow: 5px 3px;
+  border-radius: 5px;
+}
+/*add gradien*/
+
+/*Alignement du texte*/
+p {
+  text-align: justify;
+}
+
+/*table schedule*/
+table,
+td {
+  border: 1px;
+  border-style: double;
+  border-color: blue;
+
+  /*media*/
+}
+
+/*paragraph bold*/
+.span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*format image*/
+
+img {
+  border-color: 1px darkcyan;
+  border-radius: 5px;
+  padding: 1px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  */
+
+}
+
+#frontpage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border-radius: 50%;
+}
+
+/* #candle {
+  border-color: 1px darkcyan;
+  border-radius: 5px;
+  padding: 1px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  height: 250px;
+  width: 250px;
+  margin-left: 200px;
+  margin-right: auto;
+} */
+
+
+
+@media screen and (min-width: 300px) {
+  body {
+    background-color: lightpink;
+  }
+}
+@media screen and (min-width: 670px) {
+  body {
+    background-color: lightgoldenrodyellow;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  body {
+    background-color: lightblue;
+  }
+}
